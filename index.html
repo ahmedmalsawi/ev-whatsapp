@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ev-Whatsapp</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+
+    <div class="container mt-4">
+        <h1>WhatsApp Link Generator</h1>
+        <div class="form-group">
+            <label for="message">Enter a Message:</label>
+            <textarea id="message" class="form-control" placeholder="Your message..."></textarea>
+        </div>
+        <div class="form-group">
+            <label for="number">Enter a Number:</label>
+            <input type="text" id="number" class="form-control" placeholder="Phone number...">
+        </div>
+        <button class="btn btn-primary" id="addNumber">Add Number</button>
+        <ul class="list-group mt-3" id="number-list"></ul>
+        <button class="btn btn-success mt-3" id="generateLink">Generate WhatsApp Link</button>
+        <button class="btn btn-success mt-3" id="sendToAll">Send to All</button>
+
+    </div>
+ 
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
